@@ -1,0 +1,9 @@
+
+> Event Dispatcher
+    - Recebe sockets
+    - Lê novos eventos do banco - ou - recebe através de um socket da api os eventos
+    - Direciona os eventos aos sockets corretos
+    - Valida a conexao de cada socket | autentica com JWT
+
+> API
+    - Recebe POSTs sobre notificacoes
